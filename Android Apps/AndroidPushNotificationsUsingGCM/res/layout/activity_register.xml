@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="2dip"
+        android:text="Full Name:" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginBottom="2dip"
+        android:textColor="#6E6E6E"
+        android:textSize="@dimen/eleven" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="Email:" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginBottom="2dip"
+        android:inputType="textEmailAddress"
+        android:textColor="#6E6E6E"
+        android:textSize="@dimen/eleven" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="2dip"
+        android:text="Child Name:" />
+
+    <EditText
+        android:id="@+id/txtChild_name"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginBottom="2dip"
+        android:textColor="#6E6E6E"
+        android:textSize="@dimen/eleven" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="2dip"
+        android:text="Child ID:" />
+
+    <EditText
+        android:id="@+id/txtChild_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginBottom="2dip"
+        android:textColor="#6E6E6E"
+        android:textSize="@dimen/eleven" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:text="Register" />
+
+</LinearLayout>

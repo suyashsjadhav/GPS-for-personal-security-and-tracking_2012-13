@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go_to_map"
+        android:text="Show On Map" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Home Coordinates" 
+        android:textColor="#2E2E2E"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:text="Latitude" 
+        android:textColor="#2E2E2E"
+        />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" 
+        android:textColor="#2E2E2E"
+        >
+		
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="Longitude" 
+        android:textColor="#2E2E2E"
+        />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" 
+        android:textColor="#2E2E2E"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:onClick="save_home_coordinate"
+        android:text="Save Home Location" 
+        />
+
+    <TextView
+        android:id="@+id/lblMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_weight="0.29"
+        android:textColor="#000000"
+        android:textSize="16dip" />
+
+</LinearLayout>
